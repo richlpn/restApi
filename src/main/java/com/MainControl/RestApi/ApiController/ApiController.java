@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 @RequestMapping("/api")
 public class ApiController {
 
-    public static String productsPath = "src\\main\\resources\\fixtures\\products.txt";
+    public String productsPath = "src/main/resources/static/fixtures/products.txt";
 
     @GetMapping(value = "/getall")
     public String getAll(){
